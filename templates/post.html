@@ -6,6 +6,7 @@
 <p class="post-body">{{ post.body }}</p>
 <!-- TODO add author w/ link to author's blog -->
 <p class="post-author">
+   <a href="/blog/{{post.author}}">written by: {{post.author}}</a>
     written on {{ post.created.strftime('%Y-%m-%d') }}
 </p>
 
